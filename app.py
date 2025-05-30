@@ -19,6 +19,8 @@ tags = {
     11: {"label": "Disability Friendly", "icon": "disability.png"},
     12: {"label": "Remote Trailhead", "icon": "effort.png"},
 }
+st.set_page_config(page_title="SOTA Tag Explorer", page_icon=":tag:")
+st.title("SOTA Tag Explorer")
 
 # Build tag selection
 tag_options = [f"Tag_{i}" for i in tags.keys()]
